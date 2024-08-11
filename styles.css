@@ -19,6 +19,7 @@ body {
 .container {
     text-align: center;
     max-width: 500px;
+    padding: 0 20px; /* Añadido padding lateral */
 }
 
 /* Estilo del texto descriptivo */
@@ -41,6 +42,10 @@ body {
     border-radius: 5px;
     margin: 10px 0;
     transition: background-color 0.3s ease;
+}
+
+.btn i {
+    margin-right: 10px;
 }
 
 .btn:hover {
@@ -67,6 +72,10 @@ body {
     color: #aaa;
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.report a i {
+    margin-right: 5px;
 }
 
 .report a:hover {
